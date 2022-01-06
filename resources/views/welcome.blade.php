@@ -461,19 +461,19 @@
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
     
     <!-- Vendor JS Files -->
-    <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
-    <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('vendor/jquery.easing/jquery.easing.min.js') }}"></script>
-    <script src="{{ asset('vendor/php-email-form/validate.js') }}"></script>
-    <script src="{{ asset('vendor/venobox/venobox.min.js') }}"></script>
-    <script src="{{ asset( 'vendor/waypoints/jquery.waypoints.min.js') }}"></script>
-    <script src="{{ asset('vendor/counterup/counterup.min.js') }}"></script>
-    <script src="{{ asset('vendor/owl.carousel/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js') }}"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="vendor/php-email-form/validate.js"></script>
+    <script src="vendor/venobox/venobox.min.js"></script>
+    <script src="vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="vendor/counterup/counterup.min.js"></script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- Main JS File -->
-    <script src="{{ asset('js/main.js') }}"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

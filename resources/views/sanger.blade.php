@@ -14,21 +14,21 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
-  <link rel="stylesheet" href="{{ asset('vendor/icofont/icofont.min.css') }}">
-  <link rel="stylesheet" href="{{ asset('vendor/boxicons/css/boxicons.min.css') }}">
-  <link rel="stylesheet" href="{{ asset('vendor/venobox/venobox.css') }}">
-  <link rel="stylesheet" href="{{ asset('vendor/animate.css/animate.min.css') }}">
-  <link rel="stylesheet" href="{{ asset('vendor/remixicon/remixicon.css') }}">
-  <link rel="stylesheet" href="{{ asset('vendor/owl.carousel/assets/owl.carousel.min.css') }}">
-  <link rel="stylesheet" href="{{ asset('vendor/bootstrap-datepicker/css/bootstrap-datepicker.min.css') }}">
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendor/icofont/icofont.min.css">
+  <link rel="stylesheet" href="vendor/boxicons/css/boxicons.min.css">
+  <link rel="stylesheet" href="vendor/venobox/venobox.css">
+  <link rel="stylesheet" href="vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="vendor/remixicon/remixicon.css">
+  <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="vendor/bootstrap-datepicker/css/bootstrap-datepicker.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- Styles -->
-  <!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
-  <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+  <!-- <link href="css/app.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -151,18 +151,18 @@
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
-  <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-  <script src="{{ asset('vendor/jquery.easing/jquery.easing.min.js') }}"></script>
-  <script src="{{ asset('vendor/php-email-form/validate.js') }}"></script>
-  <script src="{{ asset('vendor/venobox/venobox.min.js') }}"></script>
-  <script src="{{ asset( 'vendor/waypoints/jquery.waypoints.min.js') }}"></script>
-  <script src="{{ asset('vendor/counterup/counterup.min.js') }}"></script>
-  <script src="{{ asset('vendor/owl.carousel/owl.carousel.min.js') }}"></script>
-  <script src="{{ asset('vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js') }}"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+  <script src="vendor/venobox/venobox.min.js"></script>
+  <script src="vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="vendor/counterup/counterup.min.js"></script>
+  <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
 
   <!-- Main JS File -->
-  <script src="{{ asset('js/main.js') }}"></script>
+  <script src="js/main.js"></script>
 
 </body>
 
