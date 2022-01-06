@@ -27,11 +27,11 @@
         @foreach ($orders as $order)
             <tr>
                 <td>{{ $order->order_number }}</td>
-                <td scope="row" class="text-left"><a href="/form/download/{{$order->id}}/{{$order->form}}">{{ $order->form }}</a></td>
+                <td scope="row" class="text-left"><a href="/form/download/{{$order->id}}/{{$order->form}}" class="text-success"><u>{{ $order->form }}</u></a></td>
                 @if($order->image === null)
                     <td class="text-left"><p class="badge badge-light">not applicable</p></td>
                 @else
-                    <td class="text-left"><a href="/image/download/{{$order->id}}/{{$order->image}}">download</a></td>
+                    <td class="text-left"><a href="/image/download/{{$order->id}}/{{$order->image}}" class="text-success"><u>download</u></a></td>
                 @endif
                 <!-- @if($order->service_speci === null)
                     <td scope="row">
