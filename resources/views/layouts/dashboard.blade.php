@@ -10,7 +10,7 @@
     <!-- Styles -->
     <link href="css/app.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/style.css"> -->
-    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
 </head>
 
 <body>
