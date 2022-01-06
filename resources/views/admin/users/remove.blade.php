@@ -31,12 +31,11 @@
                     <!-- </div> -->
                 </div>
 
-                <div class="form-group row mb-0">
-                    <div class="col-md-6">
-                        <button type="submit" class="btn btn-danger">
-                            {{ __('Remove Role') }}
-                        </button>
-                    </div>
+                <div class="cart-buttons">
+                    <a href="{{ route('all-users') }}" class="btn btn-sm btn-warning"><i class="fa fa-angle-left"></i> Back</a>
+                    <button type="submit" class="btn btn-danger btn-sm">
+                        {{ __('Remove Role') }}
+                    </button>
                 </div>
 
             </form>                    
