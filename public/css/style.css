@@ -1184,13 +1184,13 @@ section {
   }
   
   .intro-single .title-single-box .title-single {
-    font-weight: 600;
-    font-size: 1.2rem;
+    font-weight: 500;
+    font-size: 1rem;
   }
   
   @media (min-width: 768px) {
     .intro-single .title-single-box .title-single {
-      font-size: 1.1rem;
+      font-size: 0.9rem;
     }
   }
   
