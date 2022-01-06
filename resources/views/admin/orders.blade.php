@@ -96,7 +96,7 @@
                         <a href="{{$order->data}}" target="_blank">download</a>
                     </td>
                 @endif -->
-                <td>{{ $order->order_total }}</td>
+                <td>${{ $order->order_total }}</td>
                 @if ($order->status === 1)
                     <td scope="row"><p class="badge badge-warning">placed</p></td>
                 @elseif ($order->status === 2)
