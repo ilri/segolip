@@ -33,7 +33,7 @@
 
                 <div class="cart-buttons">
                     <a href="{{ route('all-users') }}" class="btn btn-sm btn-warning"><i class="fa fa-angle-left"></i> Back</a>
-                    <button type="submit" class="btn btn-danger btn-sm">
+                    <button type="submit" class="btn btn-danger btn-sm float-right">
                         {{ __('Remove Role') }}
                     </button>
                 </div>
