@@ -11,6 +11,6 @@ class CounterController extends Controller
     {
         $order_numbers = Order::all()->count();
 
-        return view('layouts.card-box', compact(['order_numbers']));
+        return view('layouts.card-box', compact('order_numbers'));
     }
 }

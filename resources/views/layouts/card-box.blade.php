@@ -18,7 +18,7 @@
 </div>
 <div class="card-num">
     <div>
-        <div class="numbers">{{ $order_numbers }}</div>
+        <div class="numbers">{{ \App\Order::all()->count() }}</div>
         <div class="cardName">Orders</div>
     </div>
     <div class="iconBox">
