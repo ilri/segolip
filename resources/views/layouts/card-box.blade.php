@@ -9,7 +9,7 @@
 </div>
 <div class="card-num">
     <div>
-        <div class="numbers">3</div>
+        <div class="numbers">{{ \App\User::all()->count() }}</div>
         <div class="cardName">Users</div>
     </div>
     <div class="iconBox">
