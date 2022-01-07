@@ -1,6 +1,6 @@
 <div class="card-num">
     <div>
-        <div class="numbers">8</div>
+        <div class="numbers">{{ \App\Service::all()->count() }}</div>
         <div class="cardName">Services</div>
     </div>
     <div class="iconBox">
