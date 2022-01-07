@@ -18,7 +18,7 @@
 </div>
 <div class="card-num">
     <div>
-        <div class="numbers">2</div>
+        <div class="numbers">{{ $order_numbers }}</div>
         <div class="cardName">Orders</div>
     </div>
     <div class="iconBox">

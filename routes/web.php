@@ -104,7 +104,7 @@ Route::middleware(['auth', 'role:admin'])->group(function () {
     Route::post('/remove/role/{user_id}', 'UserController@removeRole')->name('removeRole');
 
     // Orders count
-    // Route::get('/order_numbers', 'OrderController@ordersCount')->name('orders-numbers');
+    Route::get('/counters', 'CounterController@allCounters')->name('all-counters');
     
     // Reports
     Route::get('/charts', 'ChartController@allCharts')->name('all-charts');
