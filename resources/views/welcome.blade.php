@@ -269,7 +269,7 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                             <a href="{{ asset('img/gallery/reuabouti.jpg') }}" class="venobox" data-gall="gallery-item">
-                                <img src="{{ asset('img/gallery/reuabouti.jpg') }}" alt="" class="img-fluid">
+                                <img src="{{ asset('img/gallery/slid1.jpg') }}" alt="" class="img-fluid">
                             </a>
                         </div>
                     </div>
@@ -277,7 +277,7 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                             <a href="{{ asset('img/gallery/lucydeparti.jpg') }}" class="venobox" data-gall="gallery-item">
-                                <img src="{{ asset('img/gallery/lucydeparti.jpg') }}" alt="" class="img-fluid">
+                                <img src="{{ asset('img/gallery/slid2.jpg') }}" alt="" class="img-fluid">
                             </a>
                         </div>
                     </div>
@@ -285,7 +285,7 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                             <a href="{{ asset('img/gallery/kaspdeparti.jpg') }}" class="venobox" data-gall="gallery-item">
-                                <img src="{{ asset('img/gallery/kaspdeparti.jpg') }}" alt="" class="img-fluid">
+                                <img src="{{ asset('img/gallery/slid3.jpg') }}" alt="" class="img-fluid">
                             </a>
                         </div>
                     </div>
