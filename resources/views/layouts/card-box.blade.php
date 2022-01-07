@@ -28,7 +28,7 @@
 <div class="card-num">
     <div>
         <div class="numbers">${{ \App\Order::all()->sum('order_total') }}</div>
-        <div class="cardName">All Earnings</div>
+        <div class="cardName">Total Earnings</div>
     </div>
     <div class="iconBox">
         <ion-icon name="bag-handle-outline"></ion-icon>
