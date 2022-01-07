@@ -10,7 +10,7 @@
     <div class="cardHeader">
         <h4><strong>All Users</strong></h4>
     </div>
-    <table class="table table-bordered table-sm table-hover">
+    <table class="table table-bordered table-lg table-hover">
         <thead class="thead-light">
             <tr>
                 <th scope="col">Name</th>
