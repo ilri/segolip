@@ -160,7 +160,7 @@
                     <th>Service</th>
                     <th>Details</th>
                     <th>No. of samples/plates</th>
-                    <th>Price</th>
+                    <th>Price(Usd)</th>
                 </tr>
             </thead>
             <tbody>
@@ -169,7 +169,7 @@
                     <td>{{ $order_service->service->name }}</td>
                     <td class="text-left">{{ $order_service->service->description }}</td>
                     <td class="text-left">{{ $order_service->quantity }}</td>
-                    <td class="text-left">{{ $order_service->price }}</td>
+                    <td class="text-left">${{ $order_service->price }}</td>
                 </tr>
                 @endforeach
             </tbody>

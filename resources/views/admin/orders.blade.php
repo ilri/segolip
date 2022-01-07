@@ -17,7 +17,7 @@
                 <th>Payment of Payment</th>
                 <th>Receipt</th>
                 <th>Data</th> -->
-                <th>Total(Usd)</th>
+                <th>Total Price(Usd)</th>
                 <th>Status</th>
                 <th>Details</th>
                 <!-- <th>Actions</th> -->
