@@ -124,7 +124,7 @@
             </div>
             @if (auth()->user()->hasRole('admin'))
             <div class="cardBox">
-                @extends('layouts.card-box')
+                @include('layouts.card-box')
             </div>
             @else
             <div class="cardBox"></div>
