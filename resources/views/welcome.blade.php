@@ -227,7 +227,6 @@
             <div class="container">
                 <div class="section-title">
                     <h2>Gallery</h2>
-                    <!-- <p>Check out our gallery.</p> -->
                 </div>
             </div>
 
@@ -408,7 +407,7 @@
                 <div class="row">
 
                 <div class="col-lg-3 col-md-6 footer-contact">
-                    <h3>SegoliP Unit</h3>
+                    <h3>Segolip Unit</h3>
                     <p>
                     ILRI Offices, <br>
                     Naivasha Rd, Nairobi<br>
@@ -451,7 +450,7 @@
         <div class="d-md-flex py-4 px-4 copyr">
             <div class="mr-md-auto text-center text-md-left pt-3">
                 <div class="copyright">
-                    <strong><span>Segolip</span></strong> &copy; 2021.
+                    <strong><span>Segolip</span></strong> &copy; 2022.
                 </div>
             </div>
         </div>
