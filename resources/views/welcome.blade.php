@@ -268,24 +268,24 @@
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="{{ asset('img/gallery/slid1.jpg') }}" class="venobox" data-gall="gallery-item">
-                                <img src="{{ asset('img/gallery/slid1.jpg') }}" alt="" class="img-fluid">
+                            <a href="{{ asset('img/gallery/slid1min.jpg') }}" class="venobox" data-gall="gallery-item">
+                                <img src="{{ asset('img/gallery/slid1min.jpg') }}" alt="" class="img-fluid">
                             </a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="{{ asset('img/gallery/slid2.jpg') }}" class="venobox" data-gall="gallery-item">
-                                <img src="{{ asset('img/gallery/slid2.jpg') }}" alt="" class="img-fluid">
+                            <a href="{{ asset('img/gallery/slid2min.jpg') }}" class="venobox" data-gall="gallery-item">
+                                <img src="{{ asset('img/gallery/slid2min.jpg') }}" alt="" class="img-fluid">
                             </a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="{{ asset('img/gallery/slid3.jpg') }}" class="venobox" data-gall="gallery-item">
-                                <img src="{{ asset('img/gallery/slid3.jpg') }}" alt="" class="img-fluid">
+                            <a href="{{ asset('img/gallery/slid3min.jpg') }}" class="venobox" data-gall="gallery-item">
+                                <img src="{{ asset('img/gallery/slid3min.jpg') }}" alt="" class="img-fluid">
                             </a>
                         </div>
                     </div>
