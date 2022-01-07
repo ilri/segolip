@@ -27,7 +27,7 @@
 </div>
 <div class="card-num">
     <div>
-        <div class="numbers">$600</div>
+        <div class="numbers">${{ Cart::priceTotal() }}</div>
         <div class="cardName">Earnings</div>
     </div>
     <div class="iconBox">
