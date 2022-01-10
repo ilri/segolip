@@ -7,11 +7,9 @@
 
     $keys = array_keys($services);
     for($i = 0; $i < count($services); $i++) {
-        echo $keys[$i] . "{<br>";
         foreach($services[$keys[$i]] as $key => $value) {
-            echo $key . " : " . $value . "<br>";
+            var_dump($key);
         }
-        echo "}<br>";
     }
 
     for ($i=0; $i<$servicesLength; $i++) {
