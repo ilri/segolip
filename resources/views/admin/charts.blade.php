@@ -7,7 +7,7 @@
     foreach($services as $element){
         foreach ($element as $key => $value) {
             $dataPoints = array(
-                $value['quantity_sold'],
+                $value->quantity_sold,
             );
     
             $labels = array(
