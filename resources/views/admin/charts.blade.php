@@ -1,6 +1,9 @@
 <?php
 
     // services
+    for($i = 0; $i < count($services); $i++){
+        dd($services[$i]);
+    }
     $dataPoints = array(
         $services[0]['quantity_sold'],
         $services[1]['quantity_sold'],

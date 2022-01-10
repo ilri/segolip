@@ -22,7 +22,7 @@ class ChartController extends Controller
         
         $services = json_decode(json_encode($services), true);
 
-        dd($services);
+        // dd($services);
 
         // Orders
         $current_month_orders = Order::whereYear('created_at', Carbon::now()->year)
