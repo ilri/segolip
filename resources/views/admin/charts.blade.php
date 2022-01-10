@@ -6,7 +6,7 @@
     // dd($servicesLength);
 
     for ($i=0; $i<$servicesLength; $i++) {
-        // var_dump($services[$i]);
+        dd($services[$i]);
         for ($j=0; $j < count($services[$i]); $j++) {
             $dataPoints = array();
             array_push($dataPoints, $services[$i][$j]['quantity_sold']);
