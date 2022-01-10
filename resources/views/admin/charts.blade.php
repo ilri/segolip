@@ -2,20 +2,18 @@
 
     // services
     $servicesLength = sizeof($services);
-    // dd($servicesLength);
+    dd($servicesLength);
 
     $i = 0;
     while($i < $servicesLength){
         // dd($services[$i]);
-        foreach($services as $p){
-            $dataPoints = array(
-                $p[$i]['quantity_sold'],
-            );
+        $dataPoints = array(
+            $services[$i]['quantity_sold'],
+        );
 
-            $labels = array(
-                $p[$i]->name,
-            );
-        }
+        $labels = array(
+            $services[$i]['name'],
+        );
         $i++;
     }
 
