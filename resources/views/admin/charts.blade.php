@@ -6,14 +6,9 @@
 
     for ($i = 0; $i < $servicesLength; $i++) {
         // dd($services[$i]);
-        $dataPoints = array(
-            $services[$i]['quantity_sold'],
-        );
-    }
-    for ($i = 0; $i < $servicesLength; $i++) {
-        $labels = array(
-            $services[$i]['name'],
-        );
+        $dataPoints = $services[$i]['quantity_sold'];
+
+        $labels = $services[$i]['name'];
     }
 
     // dd($labels);
