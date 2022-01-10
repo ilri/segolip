@@ -1,7 +1,7 @@
 <?php
 
     // services
-    // $servicesLength = count($services);
+    $servicesLength = count($services);
     // dd($servicesLength);
 
     $i = 0;
