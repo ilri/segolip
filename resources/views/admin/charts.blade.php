@@ -7,13 +7,15 @@
     $i = 0;
     while($i < $servicesLength){
         // dd($services[$i]);
-        $dataPoints = array(
-            $services[$i]['quantity_sold'],
-        );
+        foreach($services as $k => $p){
+            $dataPoints = array(
+                $p[$i]['quantity_sold'],
+            );
 
-        $labels = array(
-            $services[$i]['name'],
-        );
+            $labels = array(
+                $p[$i]['name'],
+            );
+        }
         $i++;
     }
 
