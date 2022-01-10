@@ -1,7 +1,8 @@
 <?php
 
     // services
-    for($i = 0; $i <= count($services); $i++){
+    $servicesLength = count($services);
+    for($i = 0; $i < $servicesLength; $i++){
         // dd($services[$i]);
         $dataPoints = array(
             $services[$i]['quantity_sold'],
