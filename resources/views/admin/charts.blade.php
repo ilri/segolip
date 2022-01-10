@@ -2,6 +2,7 @@
 
     // services
     $servicesLength = count($services);
+    dd($servicesLength);
     for($i = 0; $i < $servicesLength; $i++){
         // dd($services[$i]);
         $dataPoints = array(
