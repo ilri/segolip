@@ -4,7 +4,7 @@
     $servicesLength = count($services);
     // dd($servicesLength);
 
-    $i = 0;
+    $i = 1;
     while($i <= $servicesLength){
         // dd($services[$i]);
         $dataPoints = array(
