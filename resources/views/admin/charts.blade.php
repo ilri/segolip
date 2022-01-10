@@ -1,9 +1,9 @@
 <?php
 
     // services
-    dd($services);
+    // dd($services);
     $servicesLength = sizeof($services);
-    // dd($servicesLength);
+    dd($servicesLength);
 
     for ($i=0; $i<$servicesLength; $i++) {
         // var_dump($services[$i]);
