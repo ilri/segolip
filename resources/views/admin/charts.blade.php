@@ -1,20 +1,32 @@
 <?php
 
     // services
-    $servicesLength = count($services);
+    // $servicesLength = count($services);
     // dd($servicesLength);
-    $i = 0;
-    while($i < $servicesLength){
-        // dd($services[$i]);
-        $dataPoints = array(
-            $services[$i]['quantity_sold'],
-        );
 
-        $labels = array(
-            $services[$i]['name'],
-        );
-        $i++;
+    foreach($services as $element){
+        foreach ($element as $key => $value) {
+            $dataPoints = array(
+                $value['quantity_sold'],
+            );
+    
+            $labels = array(
+                $value['name'],
+            );
+        }
     }
+    // $i = 0;
+    // while($i < $servicesLength){
+        // dd($services[$i]);
+        // $dataPoints = array(
+        //     $services[$i]['quantity_sold'],
+        // );
+
+    //     $labels = array(
+    //         $services[$i]['name'],
+    //     );
+    //     $i++;
+    // }
 
     // orders
     $current_month = date('M', time());
