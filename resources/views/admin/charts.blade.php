@@ -2,22 +2,21 @@
 
     // services
     $servicesLength = sizeof($services);
-    dd($servicesLength);
+    // dd($servicesLength);
 
-    $i = 0;
-    while($i < $servicesLength){
+    for ($i = 0; $i < $servicesLength; $i++) {
         // dd($services[$i]);
         $dataPoints = array(
             $services[$i]['quantity_sold'],
         );
-
+    }
+    for ($i = 0; $i < $servicesLength; $i++) {
         $labels = array(
             $services[$i]['name'],
         );
-        $i++;
     }
 
-    dd($labels);
+    // dd($labels);
 
     // orders
     $current_month = date('M', time());
