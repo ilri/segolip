@@ -2,16 +2,17 @@
 
     // services
     $servicesLength = count($services);
-    dd($servicesLength);
+    // dd($servicesLength);
     for($i = 0; $i < $servicesLength; $i++){
-        // dd($services[$i]);
-        $dataPoints = array(
-            $services[$i]['quantity_sold'],
-        );
-
-        $labels = array(
-            $services[$i]['name'],
-        );
+        foreach($services as $key => $value) {
+            $dataPoints = array(
+                $value[$i]['quantity_sold'],
+            );
+    
+            $labels = array(
+                $value[$i]['name'],
+            );
+        }
     }
 
     // orders
