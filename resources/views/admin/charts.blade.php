@@ -1,19 +1,18 @@
 <?php
 
     // services
-    var_dump($services);
+    // var_dump($services);
     $servicesLength = sizeof($services);
     // dd($servicesLength);
 
     for ($i = 0; $i < $servicesLength; $i++) {
-        var_dump($services[$i]);
-            $dataPoints = array();
-            array_push($dataPoints, $services[$i]['quantity_sold']);
-    
-            $labels = array(
-                $services[$i]['name'],
-            );
-        
+        // var_dump($services[$i]);
+        $dataPoints = array();
+        array_push($dataPoints, $services[$i]['quantity_sold']);
+
+        $labels = array(
+            $services[$i]['name'],
+        );
     }
 
     var_dump($dataPoints);
