@@ -9,7 +9,7 @@
         // var_dump($services[$i]);
         foreach ($services[$i] as $country => $capital) {
         $dataPoints = array();
-        array_push($dataPoints,  $capital['quantity_sold']);
+        array_push($dataPoints,  $capital->quantity_sold);
 
         $labels = array();
         array_push($labels, $services[$i]['name']);
