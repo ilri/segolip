@@ -1,24 +1,22 @@
 <?php
 
     // services
+    var_dump($services);
     $servicesLength = sizeof($services);
     // dd($servicesLength);
 
     for ($i = 0; $i < $servicesLength; $i++) {
-        dd($services[$i]);
-        foreach ($services[$i] as $key => $value) {
-            $dataPoints = array(
-                $value->quantity_sold,
-            );
+        var_dump($services[$i]);
+            $dataPoints = array();
+            array_push($dataPoints, $services[$i]['quantity_sold']);
     
             $labels = array(
                 $services[$i]['name'],
             );
-        }
         
     }
 
-    // dd($labels);
+    var_dump($dataPoints);
 
     // orders
     $current_month = date('M', time());
