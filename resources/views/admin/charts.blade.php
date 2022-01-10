@@ -22,7 +22,11 @@
     for($i = 0; $i < count($services); $i++) {
         // dd($keys[$i]);
         foreach($services[$keys[$i]] as $key => $value) {
-            dd($key);
+            $dataPoints = array();
+            array_push($dataPoints, $key);
+            
+            $labels = array();
+            array_push($labels, $value);
         }
     }
 
