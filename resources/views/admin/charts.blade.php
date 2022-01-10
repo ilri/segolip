@@ -1,7 +1,7 @@
 <?php
 
     // services
-    // var_dump($services);
+    dd($services);
     $servicesLength = sizeof($services);
     // dd($servicesLength);
 
