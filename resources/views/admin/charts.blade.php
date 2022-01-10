@@ -17,7 +17,7 @@
         $i++;
     }
 
-    dd($dataPoints);
+    dd($labels);
 
     // orders
     $current_month = date('M', time());
