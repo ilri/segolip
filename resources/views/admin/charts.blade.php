@@ -6,7 +6,9 @@
         // var_dump($services[$i]);
         echo $services[$i]['name'];
         $dataPoints = explode(" ", $services[$i]['quantity_sold']);
+        // echo $dataPoints;
         $labels = explode(" ", $services[$i]['name']);
+        echo $labels;
     }
 
     // orders
