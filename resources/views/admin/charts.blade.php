@@ -2,21 +2,29 @@
 
     // services
     // dd($services);
-    $servicesLength = sizeof($services);
+    // $servicesLength = sizeof($services);
     // dd($servicesLength);
 
-    for ($i=0; $i<$servicesLength; $i++) {
-        // var_dump($services[$i]);
-        foreach ($services[$i] as $country => $capital) {
-        $dataPoints = array();
-        array_push($dataPoints,  $capital->quantity_sold);
+    $keys = array_keys($services);
 
-        $labels = array();
-        array_push($labels, $services[$i]['name']);
+    // for ($i=0; $i<$servicesLength; $i++) {
+    //     var_dump($services[$i]);
+    //     for ($j=0;$j<3; $col++) {
+    //         echo "<li>".$cars[$row][$col]."</li>";
+    //     }
+    //     $dataPoints = array();
+    //     array_push($dataPoints, $services[$i]['quantity_sold']);
+
+    //     $labels = array();
+    //     array_push($labels, $services[$i]['name']);
+    // }
+
+    for($i = 0; $i < count($services); $i++) {
+        dd($keys[$i]);
+        foreach($services[$keys[$i]] as $key => $value) {
+            echo $key . " : " . $value . "<br>";
         }
     }
-
-    // var_dump($dataPoints);
 
     // orders
     $current_month = date('M', time());
