@@ -7,7 +7,7 @@
     $i = 0;
     while($i < $servicesLength){
         // dd($services[$i]);
-        foreach($services as $k => $p){
+        foreach($services as $p){
             $dataPoints = array(
                 $p[$i]->quantity_sold,
             );
