@@ -4,12 +4,14 @@
     $servicesLength = sizeof($services);
     // dd($servicesLength);
 
-    $i = 1;
+    $i = 0;
     while($i < $servicesLength){
         // dd($services[$i]);
         $dataPoints = array(
             $services[$i]['quantity_sold'],
         );
+
+        dd($dataPoints);
 
         $labels = array(
             $services[$i]['name'],
