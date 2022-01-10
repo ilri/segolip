@@ -8,7 +8,7 @@
     $keys = array_keys($services);
     for($i = 0; $i < count($services); $i++) {
         foreach($services[$keys[$i]] as $key => $value) {
-            var_dump($key);
+            var_dump($key[0]);
         }
     }
 
