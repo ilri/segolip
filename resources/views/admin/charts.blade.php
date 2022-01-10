@@ -13,7 +13,7 @@
             );
 
             $labels = array(
-                $p[$i]['name'],
+                $p[$i]->name,
             );
         }
         $i++;
