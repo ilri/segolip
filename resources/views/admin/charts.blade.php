@@ -2,32 +2,25 @@
 
     // services
     // dd($services);
-    // $servicesLength = sizeof($services);
+    $servicesLength = sizeof($services);
     // dd($servicesLength);
 
     $keys = array_keys($services);
-
-    // for ($i=0; $i<$servicesLength; $i++) {
-    //     var_dump($services[$i]);
-    //     for ($j=0;$j<3; $col++) {
-    //         echo "<li>".$cars[$row][$col]."</li>";
-    //     }
-    //     $dataPoints = array();
-    //     array_push($dataPoints, $services[$i]['quantity_sold']);
-
-    //     $labels = array();
-    //     array_push($labels, $services[$i]['name']);
-    // }
-
     for($i = 0; $i < count($services); $i++) {
-        // dd($keys[$i]);
+        echo $keys[$i] . "{<br>";
         foreach($services[$keys[$i]] as $key => $value) {
-            $dataPoints = array();
-            array_push($dataPoints, $key);
-            
-            $labels = array();
-            array_push($labels, $value);
+            echo $key . " : " . $value . "<br>";
         }
+        echo "}<br>";
+    }
+
+    for ($i=0; $i<$servicesLength; $i++) {
+        // var_dump($services[$i]);
+        $dataPoints = array();
+        array_push($dataPoints, $services[$i]['quantity_sold']);
+
+        $labels = array();
+        array_push($labels, $services[$i]['name']);
     }
 
     // orders
