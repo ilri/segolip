@@ -10,9 +10,8 @@
         $dataPoints = array();
         array_push($dataPoints, $services[$i]['quantity_sold']);
 
-        $labels = array(
-            $services[$i]['name'],
-        );
+        $labels = array();
+        array_push($labels, $services[$i]['name']);
     }
 
     var_dump($dataPoints);
