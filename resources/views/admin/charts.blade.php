@@ -1,11 +1,11 @@
 <?php
 
     // services
-    $servicesLength = count($services);
+    $servicesLength = sizeof($services);
     // dd($servicesLength);
 
     $i = 1;
-    while($i <= $servicesLength){
+    while($i < $servicesLength){
         // dd($services[$i]);
         $dataPoints = array(
             $services[$i]['quantity_sold'],
