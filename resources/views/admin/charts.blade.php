@@ -4,9 +4,9 @@
     // dd($services);
     for ($i = 0; $i < count($services); $i++) {
         // var_dump($services[$i]);
-        dd($services[$i]['quantity_sold']);
-        $dataPoints = $services[$i]['quantity_sold'];
-        $labels = $services[$i]['name'];
+        var_dump($services[$i]['quantity_sold']);
+        $dataPoints = str_split($services[$i]['quantity_sold']);
+        $labels = str_split($services[$i]['name']);
     }
 
     // orders
