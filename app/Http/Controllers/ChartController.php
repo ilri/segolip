@@ -19,8 +19,10 @@ class ChartController extends Controller
             ->orderByDesc('quantity_sold')
             ->take(5)
             ->get();
-        dd($services);
+        
         $services = json_decode(json_encode($services), true);
+
+        dd($services);
 
         // Orders
         $current_month_orders = Order::whereYear('created_at', Carbon::now()->year)
