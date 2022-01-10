@@ -5,7 +5,7 @@
     // dd($servicesLength);
 
     for ($i = 0; $i < $servicesLength; $i++) {
-        // dd($services[$i]);
+        dd($services[$i]);
         foreach ($services[$i] as $key => $value) {
             $dataPoints = array(
                 $value->quantity_sold,
