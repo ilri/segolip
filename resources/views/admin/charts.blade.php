@@ -5,20 +5,15 @@
     $servicesLength = sizeof($services);
     // dd($servicesLength);
 
-    $keys = array_keys($services);
-    for($i = 0; $i < count($services); $i++) {
-        foreach($services[$keys[$i]] as $key => $value) {
-            var_dump($key->name);
-        }
-    }
-
     for ($i=0; $i<$servicesLength; $i++) {
         // var_dump($services[$i]);
-        $dataPoints = array();
-        array_push($dataPoints, $services[$i]['quantity_sold']);
+        for ($j=0; $j < count($services[$i]); $j++) {
+            $dataPoints = array();
+            array_push($dataPoints, $services[$i][$j]['quantity_sold']);
 
-        $labels = array();
-        array_push($labels, $services[$i]['name']);
+            $labels = array();
+            array_push($labels, $services[$i][$j]['name']);
+        }
     }
 
     // orders
