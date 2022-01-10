@@ -14,7 +14,7 @@
         array_push($labels, $services[$i]['name']);
     }
 
-    var_dump($dataPoints);
+    // var_dump($dataPoints);
 
     // orders
     $current_month = date('M', time());
