@@ -11,7 +11,7 @@
         $labels = $services[$i]['name'];
     }
 
-    // dd($labels);
+    dd($labels);
 
     // orders
     $current_month = date('M', time());
