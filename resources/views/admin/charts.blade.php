@@ -2,23 +2,15 @@
 
     // services
     for($i = 0; $i <= count($services); $i++){
-        dd($services[$i]);
-    }
-    $dataPoints = array(
-        $services[0]['quantity_sold'],
-        $services[1]['quantity_sold'],
-        $services[2]['quantity_sold'],
-        $services[3]['quantity_sold'],
-        $services[4]['quantity_sold']
-    );
+        // dd($services[$i]);
+        $dataPoints = array(
+            $services[$i]['quantity_sold'],
+        );
 
-    $labels = array(
-        $services[0]['name'],
-        $services[1]['name'],
-        $services[2]['name'],
-        $services[3]['name'],
-        $services[4]['name']
-    );
+        $labels = array(
+            $services[$i]['name'],
+        );
+    }
 
     // orders
     $current_month = date('M', time());
