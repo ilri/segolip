@@ -20,9 +20,9 @@
     // }
 
     for($i = 0; $i < count($services); $i++) {
-        dd($keys[$i]);
+        // dd($keys[$i]);
         foreach($services[$keys[$i]] as $key => $value) {
-            echo $key . " : " . $value . "<br>";
+            dd($key);
         }
     }
 
