@@ -2,17 +2,15 @@
 
     // services
     // dd($services);
-    $servicesLength = sizeof($services);
-    // dd($servicesLength);
-
-    for ($i=0; $i<$servicesLength; $i++) {
+    for ($i = 0; $i < count($services); $i++) {
         dd($services[$i]);
         for ($j=0; $j < count($services[$i]); $j++) {
-            $dataPoints = array();
-            array_push($dataPoints, $services[$i][$j]['quantity_sold']);
-
-            $labels = array();
-            array_push($labels, $services[$i][$j]['name']);
+            $dataPoints = array(
+                $services[$i][$j],
+            );
+            $labels = array(
+                $services[$i][$j]['name'],
+            );
         }
     }
 
