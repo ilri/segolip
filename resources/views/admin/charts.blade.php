@@ -9,7 +9,7 @@
         // dd($services[$i]);
         foreach($services as $k => $p){
             $dataPoints = array(
-                $p[$i]['quantity_sold'],
+                $p[$i]->quantity_sold,
             );
 
             $labels = array(
