@@ -1,7 +1,7 @@
 <?php
 
     // services
-    for($i = 0; $i < count($services); $i++){
+    for($i = 0; $i <= count($services); $i++){
         dd($services[$i]);
     }
     $dataPoints = array(
