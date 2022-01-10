@@ -11,13 +11,13 @@
             $services[$i]['quantity_sold'],
         );
 
-        dd($dataPoints);
-
         $labels = array(
             $services[$i]['name'],
         );
         $i++;
     }
+
+    dd($dataPoints);
 
     // orders
     $current_month = date('M', time());
