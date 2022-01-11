@@ -3,12 +3,11 @@
     // services
     // dd($services);
     foreach ($services as $service) {
-        var_dump($service);
-        $dataPoints = array();
-        $dataPoints = array_push($dataPoints, array_values(explode(",", $service['quantity_sold'])));
+        // var_dump($service);
 
-        $labels = array();
-        $labels = array_push($labels, array_values(explode(",", $service['name'])));
+        $dataPoints = array_push($service['quantity_sold']);
+
+        $labels = array_push($service['name']);
     }
 
     // orders
