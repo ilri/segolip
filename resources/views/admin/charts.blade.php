@@ -9,7 +9,7 @@
 
         //  var_dump($dataPoints);
 
-        $labels = explode(" ",$service['name']);
+        $labels = explode('"',$service['name']);
     }
 
     // orders
