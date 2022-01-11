@@ -2,10 +2,11 @@
 
     // services
     // dd($services);
-    for ($i = 0; $i < count($services); $i++) {
-        $dataPoints = array(array_values(explode(",", $services[$i]['quantity_sold'])));
+    foreach ($services as $service) {
+        dd($service);
+        $dataPoints = array(array_values($service['quantity_sold']));
 
-        $labels = array(array_values(explode(",", $services[$i]['name'])));
+        $labels = array(array_values($service['name']));
     }
 
     // orders
