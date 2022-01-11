@@ -5,9 +5,9 @@
     foreach ($services as $service) {
         // var_dump($service);
 
-        $dataPoints = array_push($service['quantity_sold']);
+        $dataPoints = array($service['quantity_sold']);
 
-        $labels = array_push($service['name']);
+        $labels = array($service['name']);
     }
 
     // orders
