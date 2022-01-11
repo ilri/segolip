@@ -4,9 +4,9 @@
     // dd($services);
     foreach ($services as $service) {
         var_dump($service);
-        $dataPoints = array_values(array($service['quantity_sold']));
+        $dataPoints = array_values(explode(",", $service['quantity_sold']));
 
-        $labels = array_values(array($service['name']));
+        $labels = array_values(explode(",", $service['name']));
     }
 
     // orders
