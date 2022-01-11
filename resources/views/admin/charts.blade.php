@@ -3,9 +3,9 @@
     // services
     // dd($services);
     for ($i = 0; $i < count($services); $i++) {
-        $dataPoints = array_values(explode(",", $services[$i]['quantity_sold']));
+        $dataPoints = array(array_values(explode(",", $services[$i]['quantity_sold'])));
 
-        $labels = array_values(explode(",", $services[$i]['name']));
+        $labels = array(array_values(explode(",", $services[$i]['name'])));
     }
 
     // orders
