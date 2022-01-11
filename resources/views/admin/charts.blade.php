@@ -7,7 +7,7 @@
 
         $dataPoints = array(explode(" ",$service['quantity_sold']));
 
-        echo $service['quantity_sold'];
+        echo $dataPoints;
 
         $labels = array($service['name']);
     }
