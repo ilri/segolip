@@ -5,7 +5,7 @@
     foreach ($services as $service) {
         // var_dump($service);
 
-        $dataPoints = array(explode(",",$service['quantity_sold']));
+        $dataPoints = array(explode(" ",$service['quantity_sold']));
 
         echo $service['quantity_sold'];
 
