@@ -78,36 +78,36 @@
 @section('javascript')
     <script>
         // services
-        const ctx = document.getElementById('myChart').getContext('2d');
-        const myChart = new Chart(ctx, {
-            type: 'polarArea',
-            data: {
-                labels: <?php echo json_encode($labels, JSON_NUMERIC_CHECK); ?>,
-                datasets: [{
-                    label: '5 Most Requested Services',
-                    data: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>,
-                    backgroundColor: [
-                        'rgb(255, 99, 132, 1)',
-                        'rgb(75, 192, 192, 1)',
-                        'rgb(255, 205, 86, 1)',
-                        'rgb(201, 203, 207, 1)',
-                        'rgb(54, 162, 235, 1)'
-                    ],
-                }]
-            },
-            options: {
-                plugins: {
-                    title: {
-                        display: true,
-                        position: 'top',
-                        align: 'start',
-                        font: {weight: 'bold'},
-                        text: 'Most Ordered Services (Top 5)'
-                    }
-                },
-                responsive: true,
-            }
-        });
+        // const ctx = document.getElementById('myChart').getContext('2d');
+        // const myChart = new Chart(ctx, {
+        //     type: 'polarArea',
+        //     data: {
+        //         labels: ,
+        //         datasets: [{
+        //             label: '5 Most Requested Services',
+        //             data: ,
+        //             backgroundColor: [
+        //                 'rgb(255, 99, 132, 1)',
+        //                 'rgb(75, 192, 192, 1)',
+        //                 'rgb(255, 205, 86, 1)',
+        //                 'rgb(201, 203, 207, 1)',
+        //                 'rgb(54, 162, 235, 1)'
+        //             ],
+        //         }]
+        //     },
+        //     options: {
+        //         plugins: {
+        //             title: {
+        //                 display: true,
+        //                 position: 'top',
+        //                 align: 'start',
+        //                 font: {weight: 'bold'},
+        //                 text: 'Most Ordered Services (Top 5)'
+        //             }
+        //         },
+        //         responsive: true,
+        //     }
+        // });
 
         // orders
         const earning = document.getElementById('earning').getContext('2d');
