@@ -7,6 +7,8 @@
 
         $dataPoints = array($service['quantity_sold']);
 
+        dd($service['quantity_sold']);
+
         $labels = array($service['name']);
     }
 
