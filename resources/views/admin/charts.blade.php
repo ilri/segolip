@@ -3,7 +3,7 @@
     // services
     // dd($services);
     foreach ($services as $service) {
-        echo $service;
+        var_dump($service);
         $dataPoints = array(array_values($service['quantity_sold']));
 
         $labels = array(array_values($service['name']));
