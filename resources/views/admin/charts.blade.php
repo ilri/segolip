@@ -2,15 +2,10 @@
 
     // services
     // dd($services);
-    foreach ($services as $service) {
-        // var_dump($service);
-
-        $dataPoints = explode(" ",$service['quantity_sold']);
-
-        //  var_dump($dataPoints);
-
-        $labels = explode('"',$service['name']);
-    }
+    // foreach ($services as $service) {
+    //     $dataPoints = explode(" ",$service['quantity_sold']);
+    //     $labels = explode('"',$service['name']);
+    // }
 
     // orders
     $current_month = date('M', time());
@@ -63,7 +58,8 @@
             <div class="card-body">
                 <div class="graphbox">
                     <div class="box">
-                        <canvas id="myChart"></canvas>
+                        <!-- <canvas id="myChart"></canvas> -->
+                        <canvas id="user"></canvas>
                     </div>
                     <div class="box">
                         <canvas id="earning"></canvas>
@@ -71,7 +67,7 @@
                 </div>
                 <div class="graphbox">
                     <div class="box">
-                        <canvas id="user"></canvas>
+                        <!-- <canvas id="user"></canvas> -->
                     </div>
                 </div>
             </div>
