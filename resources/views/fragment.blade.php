@@ -115,7 +115,7 @@
                         into the data collection software. Only an underscore can be used in the sample naming.
                 </p>
 
-                <p>For more information, refer to the <a href="{{ asset('guidelines/fragment_analysis_guidelines.pdf') }}"><u>guidelines</u> <i class="fa fa-file-pdf-o attachment-pdf" aria-hidden="true"></i></a></p>
+                <p>For more information, refer to the <a href="{{ asset('guidelines/fragment_analysis_guidelines.pdf') }}" target="_blank"><u>guidelines</u> <i class="fa fa-file-pdf-o attachment-pdf" aria-hidden="true"></i></a></p>
 
                 <div class="row">
                     <!-- <div class="course-col col-md-4">

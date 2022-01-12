@@ -92,7 +92,7 @@
 
                 <p>Use the DNA/RNA Extraction <a href="excel_docs/Segolip_DNA_Extraction_Request_Form_2021.xlsx"><u>template</u> <i class="fa fa-file-excel-o attachment" aria-hidden="true"></i></a> to submit your request.</p>
 
-                <p>For more information on sample requirements, kindly refer to the <a href="{{ asset('guidelines/dna_extraction_guidelines.pdf') }}"><u>guidelines</u> <i class="fa fa-file-pdf-o attachment-pdf" aria-hidden="true"></i></a></p>
+                <p>For more information on sample requirements, kindly refer to the <a href="{{ asset('guidelines/dna_extraction_guidelines.pdf') }}" target="_blank"><u>guidelines</u> <i class="fa fa-file-pdf-o attachment-pdf" aria-hidden="true"></i></a></p>
                 <div class="row">
                     <!-- <div class="course-col col-md-4">
                         <h6><b>DNA/RNA Extraction Request Form</b></h6>

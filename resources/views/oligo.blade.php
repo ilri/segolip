@@ -95,7 +95,7 @@
                         for next consolidation by completing the Primer Ordering <a href="excel_docs/Segolip_Primer_Ordering_form_2021.xls"><u>form</u> <i class="fa fa-file-excel-o attachment" aria-hidden="true"></i></a>
                 </p>
 
-                <p>For more information, refer to our Primer ordering <a href="{{ asset('guidelines/primer_ordering_guidelines.pdf') }}"><u>guidelines</u> <i class="fa fa-file-pdf-o attachment-pdf" aria-hidden="true"></i></a></p>
+                <p>For more information, refer to our Primer ordering <a href="{{ asset('guidelines/primer_ordering_guidelines.pdf') }}" target="_blank"><u>guidelines</u> <i class="fa fa-file-pdf-o attachment-pdf" aria-hidden="true"></i></a></p>
 
                 <div class="row">
                     <!-- <div class="course-col col-md-4">

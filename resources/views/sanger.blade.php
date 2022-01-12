@@ -109,7 +109,7 @@
                             <li>A 1% agarose gel image of the samples. Ensure the samples have a single band before submission.</li>
                         </ul>
                     </li>
-                    <li>For more information, refer to the <a href="{{ asset('guidelines/sanger_sequencing_guidelines.pdf') }}"><u>guidelines</u> <i class="fa fa-file-pdf-o attachment-pdf" aria-hidden="true"></i></a></li>
+                    <li>For more information, refer to the <a href="{{ asset('guidelines/sanger_sequencing_guidelines.pdf') }}" target="_blank"><u>guidelines</u> <i class="fa fa-file-pdf-o attachment-pdf" aria-hidden="true"></i></a></li>
                 </ul>
                 <p><b>Recommended purification kits</b></p>
                 <ul>
