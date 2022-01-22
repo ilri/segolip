@@ -84,8 +84,7 @@
               <div class="col-md-6 col-lg-12 section-md-t3">
                 <p class="color-text-a">
                 Segolip Unit accepts multi-well plates (compatible with the instrument) containing DNA fragments
-                        for size analysis on the 48-capillary Array 3730 DNA Analyzer. The instruments use the G5 and F
-                        filter set. The following dyes are therefore used for G5 and F Filter set to label PCR fragments
+                        for size analysis on the 48-capillary Array 3730 DNA Analyzer. The instruments is calibrated for G5 and F dye filter sets. The following dyes are therefore used for G5 and F Filter set to label PCR fragments
                         respectively: The LIZ dye is used as the internal size standard.
                 </p>
                 <table class="table table-bordered">

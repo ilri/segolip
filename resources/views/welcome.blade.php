@@ -160,10 +160,10 @@
                           to scientists and students working in the region.
                         </p>
                         <p>
-                        The Segolip unit renders capillary electrophoresis for Sanger sequencing, microsatellite 
-                        (fragment and sequence) analysis, KASP genotyping and automated DNA extractions of samples 
-                        on a cost recovery basis. The platform also offers KASP primer design and consolidated primer procurement. The platform facilitates
-                        permit processing for the purpose of sample shipment, provide technical advice and training.  
+                        Segolip unit renders capillary electrophoresis for Sanger sequencing and microsatellite (fragment) analysis, 
+                        KASP genotyping and automated nucleic acid extraction (DNA and RNA) services on a cost recovery basis. 
+                        The platform also offers KASP primer design and validation and a monthly consolidated primer procurement service. 
+                        The platform facilitates permit processing for the purpose of sample shipment, provide technical advice and training.
                         </p>
                     </div>
                 </div>
