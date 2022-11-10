@@ -93,7 +93,7 @@ class OrderController extends Controller
             $order->save();
 
             // send mail
-            // Mail::send(new ServiceUploaded($order));
+            Mail::send(new ServiceUploaded($order));
 
             $order_dates = OrderDate::where('order_id', $order->id)->get();
             foreach($order_dates as $order_date){
@@ -137,7 +137,7 @@ class OrderController extends Controller
             }
 
             // send mail
-            // Mail::send(new SignedUploaded($order));
+            Mail::send(new SignedUploaded($order));
 
             return redirect()->route('my-orders.get-signed', [$order])->with('success', 'Document uploaded successfully...');
         }
@@ -175,7 +175,7 @@ class OrderController extends Controller
             }
 
             // send mail
-            // Mail::send(new InvoiceUploaded($order));
+            Mail::send(new InvoiceUploaded($order));
 
             return redirect()->route('all-orders.get-invoice', [$order])->with('success', 'Document uploaded successfully...');
         }
@@ -213,7 +213,7 @@ class OrderController extends Controller
             }
 
             // send mail
-            // Mail::send(new PaymentUploaded($order));
+            Mail::send(new PaymentUploaded($order));
 
             return redirect()->route('my-orders.get-payment', [$order])->with('success', 'Document uploaded successfully...');
         }
@@ -251,7 +251,7 @@ class OrderController extends Controller
             }
 
             // send mail
-            // Mail::send(new ReceiptUploaded($order));
+            Mail::send(new ReceiptUploaded($order));
 
             return redirect()->route('all-orders.get-receipt', [$order])->with('success', 'Receipt uploaded successfully...');
         }

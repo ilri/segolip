@@ -28,7 +28,7 @@ class CheckoutController extends Controller
         Cart::destroy();
 
         // send mail
-        // Mail::send(new OrderPlaced($order));
+        Mail::send(new OrderPlaced($order));
         
         return redirect()->route('confirmation.thankyou')->with('success', 'Order placed successfully...');
     }
