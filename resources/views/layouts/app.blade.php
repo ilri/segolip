@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Segolip') }}</title>
+    <title>{{ config('app.name', 'SegoliP') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -30,7 +30,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-nav navbar-lg shadow-sm fixed">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <b>{{ config('app.name', 'Segolip') }}</b>
+                    <b>{{ config('app.name', 'SegoliP') }}</b>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"

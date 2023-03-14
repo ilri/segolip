@@ -21,7 +21,7 @@
                     <a href="{{ route('welcome') }}">
                         <span class="icon"><ion-icon name="globe-outline"></ion-icon></span>
                         <span class="title">
-                            <b>{{ config('app.name', 'Segolip') }}</b>
+                            <b>{{ config('app.name', 'SegoliP') }}</b>
                         </span>
                     </a>
                 </li>

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Segolip | FAQs</title>
+  <title>SegoliP | FAQs</title>
 
   <!-- Scripts -->
   <!-- <script src="{{ asset('js/app.js') }}" defer></script> -->
@@ -72,11 +72,11 @@
                             class="bx bx-chevron-up icon-close"></i></a>
                         <div id="faq-list-1" class="collapse" data-parent=".faq-list">
                             <p>
-                              Segolip services are available online and open to all clients from research organizations, NARS and universities 
-                              wishing to partner with us. Visit our website's <a class="que-link" href="{{ route('welcome') }}/#ourservices">services</a> section and explore the various services offered, download 
-                              the appropriate request form of your area of interest and request for the service online. <br>
+                              SegoliP services are available online and open to all clients from research organizations, NARS and universities
+                              wishing to partner with us. Visit our website's <a class="que-link" href="{{ route('welcome') }}/#ourservices">services</a> section and explore the various services offered, download
+                              the appropriate request form of your area of interest and request for the service online.<br>
                               <strong><u>N/B</u> A service specification agreement will be uploaded for you to download and agree to the terms.
-                                 If you have a service level agreement with Segolip a service specification is not required. </strong>
+                                 If you have a service level agreement with SegoliP a service specification is not required.</strong>
                             </p>
                         </div>
                     </li>
@@ -87,7 +87,7 @@
                             class="bx bx-chevron-up icon-close"></i></a>
                         <div id="faq-list-2" class="collapse" data-parent=".faq-list">
                             <p>
-                                Segolip accepts purified PCR amplicons and plasmids at a concentration of 50ng & 100ng 
+                                SegoliP accepts purified PCR amplicons and plasmids at a concentration of 50ng & 100ng 
                                 respectively. The samples and primers must be eluted in water. PCR products must be single banded. 
                                 An agarose gel image must be uploaded together with the sequencing request form. 
                                 For more, details refer to our <a class="que-link" href="{{ asset('guidelines/sanger_sequencing_guidelines.pdf') }}">Sanger sequencing guidelines</a> on samples submission.
@@ -157,12 +157,12 @@
                         <div id="faq-list-7" class="collapse" data-parent=".faq-list">
                             <p>
                               After generation of PCR products, normalize to 50ng/µl. Design your co-loading sets using different dye combinations. 
-                              You can co-load at least 4 different markers per well. NB Pool at least 1.2µl of one sample amplified with different 
-                              primers labeled with different dyes. Prepare a Liz/hidi cocktail by combining 1ml hidi with 15µl of Liz 
+                              You can co-load at least 4 different markers per well. NB: Pool at least 1.2µl of one sample amplified with different 
+                              primers labeled with different dyes. Prepare a Liz/hidi cocktail by combining 1ml of hidi with 15µl of Liz 
                               standard (this is enough for one 96 well plate). Aliquot 9µl of this cocktail to each well of the 96 well plate. 
                               Transfer 1.2µl of each sample pooled to an individual well with the cocktail. If no multiplexing has been done, 
                               transfer 1.2µl of individual PCR amplicons to individual wells with the Liz/Hidi cocktail. Mix well and denature 
-                              at 95 0c for 3 minutes. Samples are now ready for submission. 
+                              at 95°c for 3 minutes. Samples are now ready for submission. 
                             </p>
                         </div>
                     </li>

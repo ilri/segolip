@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Segolip | Oligonucleotide Procurement</title>
+  <title>SegoliP | Oligonucleotide Procurement</title>
 
   <!-- Scripts -->
   <!-- <script src="{{ asset('js/app.js') }}" defer></script> -->
@@ -83,7 +83,7 @@
             <div class="row">
               <div class="col-md-6 col-lg-12 section-md-t3">
                 <p class="color-text-a">
-                Segolip facilitates oligonucleotide procurement at competitive prices to clients on a monthly basis. 
+                SegoliP facilitates oligonucleotide procurement at competitive prices to clients on a monthly basis. 
                 A consolidated order is placed on the second Wednesday of each succeeding month. The rationale being sharing of
                         freight costs by the clients who order at the time and thereby mitigating individual cost.
                         This consolidation comes in handy to ensure our clients get value for money.

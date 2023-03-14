@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Segolip | Sanger Sequencing</title>
+  <title>SegoliP | Sanger Sequencing</title>
 
   <!-- Scripts -->
   <!-- <script src="{{ asset('js/app.js') }}" defer></script> -->
@@ -86,13 +86,13 @@
                 <p class="color-text-a">
                 Sanger sequencing, also known as the “chain termination method”, is a method for determining the
                         nucleotide sequence of DNA. The method was developed by two-time Nobel Laureate Frederick Sanger
-                        and his colleagues in 1977, hence the name 'Sanger' sequencing. At Segolip, sequencing is done
+                        and his colleagues in 1977, hence the name 'Sanger' sequencing. At SegoliP, sequencing is done
                         using BigDye Terminator v3.1 Chemistry. 
                 </p>
                 <p class="color-text-a">
                 Electrophoresis is done on the 48-capillary
                         Array 3730 DNA Analyzer. Read length of 700 bases or more is guaranteed for a common plasmid
-                        template. Similar read lengths can be obtained from PCR products. Sequence data is generated and
+                        template. Similar read length can be obtained from PCR products. Sequence data is generated and
                         shared in two formats: as a text file and ABI file (electropherogram/raw data). Data is accessible through a secure web account.
                 </p>
                 <p><b>Service requirements</b></p>

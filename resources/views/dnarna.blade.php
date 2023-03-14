@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Segolip | DNA/RNA Extraction</title>
+  <title>SegoliP | DNA/RNA Extraction</title>
 
   <!-- Scripts -->
   <!-- <script src="{{ asset('js/app.js') }}" defer></script> -->
@@ -83,7 +83,7 @@
             <div class="row">
               <div class="col-md-6 col-lg-12 section-md-t3">
                 <p class="color-text-a">
-                Segolip houses TANBead Maelstrom 9600 which is an
+                SegoliP houses TANBead Maelstrom 9600 which is an
                         automated nucleic acid platform for high throughput RNA and DNA
                         extraction. The platform is efficient with capacity to process 96 samples of high quality (purity) and quantity
                         DNA/RNA extracted in less than an hour. The automation process ensures zero chances of

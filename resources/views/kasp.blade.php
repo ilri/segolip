@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Segolip | Kasp Genotyping</title>
+  <title>SegoliP | Kasp Genotyping</title>
 
   <!-- Scripts -->
   <!-- <script src="{{ asset('js/app.js') }}" defer></script> -->
@@ -86,12 +86,12 @@
                 KASP (Kompetitive Allele Specific PCR) is a SNP (Single Nucleotide Polymorphism) genotyping
                         technology. KASP genotyping assays are based on competitive allele-specific PCR and enable
                         biallelic scoring of single nucleotide polymorphisms at specific loci. The technology utilizes a
-                        commercially available KASP master mix, and different platforms can be used for plate reading.
-                        At Segolip the FLUOstar® Omega platform is used for this purpose.
+                        commercially available KASP master mix. Different platforms can be used for plate reading.
+                        At SegoliP the FLUOstar® Omega platform is used for this purpose.
                 </p>
 
                 <p class="color-text-a">
-                Segolip KASP genotyping service is all inclusive and runs from Primer design, procurement and
+                SegoliP KASP genotyping service is all inclusive and runs from Primer design, procurement and
                         validation, DNA extraction, KASP PCR and SNP calling. The service can be a full genotyping
                         service or partial depending on the preferred point of engagement by the client.
                 </p>

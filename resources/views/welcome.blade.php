@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Segolip</title>
+    <title>SegoliP</title>
 
     <!-- Scripts -->
     <!-- <script src="{{ asset('js/app.js') }}" defer></script> -->
@@ -39,7 +39,7 @@
     <header id="header" class="fixed-top">
         <div class="container d-flex align-items-center">
 
-            <h1 class="logo mr-auto"><a href="{{ route('welcome') }}">Segolip</a></h1>
+            <h1 class="logo mr-auto"><a href="{{ route('welcome') }}">SegoliP</a></h1>
 
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
@@ -83,7 +83,7 @@
     <!-- Hero Section -->
     <section id="hero" class="d-flex align-items-center">
         <div class="container">
-        <h1>Welcome to Segolip</h1>
+        <h1>Welcome to SegoliP</h1>
         <h2>For genomic services</h2>
         <a href="{{ route('ordering') }}" class="btn-get-started scrollto">Get Started</a>
         </div>
@@ -97,7 +97,7 @@
                 <div class="row">
                     <div class="col-lg-4 d-flex align-items-stretch">
                         <div class="content">
-                            <h4>Why Choose Segolip?</h4>
+                            <h4>Why Choose SegoliP?</h4>
                             <p>
                                 Our customer experience is unmatched, valuable feedback and positive testimonies received from our past and current customers is a treasure. We are committed to maintain the preset standards and make them even better.
                             </p>
@@ -150,7 +150,7 @@
                     <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
                         <h3>SegoliP Unit</h3>
                         <p class="fst-italic">
-                        Established in 1993 as ILRI’s centralized sequencing, genotyping and oligosynthesis platform (Segolip), the facility has since expanded to support
+                        Established in 1993 as ILRI’s centralized sequencing, genotyping and oligosynthesis platform (SegoliP), the facility has since expanded to support
                         the needs of scientists working in Africa and beyond.
                         </p>
                         <p> 
@@ -160,7 +160,7 @@
                           to scientists and students working in the region.
                         </p>
                         <p>
-                        Segolip unit renders capillary electrophoresis for Sanger sequencing and microsatellite (fragment) analysis, 
+                        SegoliP unit renders capillary electrophoresis for Sanger sequencing and microsatellite (fragment) analysis, 
                         KASP genotyping and automated nucleic acid extraction (DNA and RNA) services on a cost recovery basis. 
                         The platform also offers KASP primer design and validation and a monthly consolidated primer procurement service. 
                         The platform facilitates permit processing for the purpose of sample shipment, provide technical advice and training.
@@ -324,7 +324,7 @@
                             <div class="address">
                                 <i class="icofont-google-map"></i>
                                 <h4>Address</h4>
-                                <p>International Livestock Research Institute, Segolip Unit</p>
+                                <p>International Livestock Research Institute, SegoliP Unit</p>
                                 <p>P.O Box 30709 – 00100, Old Naivasha Road, Nairobi</p>
                                 <p></p>
                             </div>
@@ -407,7 +407,7 @@
                 <div class="row">
 
                 <div class="col-lg-3 col-md-6 footer-contact">
-                    <h3>Segolip Unit</h3>
+                    <h3>SegoliP Unit</h3>
                     <p>
                     ILRI Offices, <br>
                     Naivasha Rd, Nairobi<br>
@@ -450,7 +450,7 @@
         <div class="d-md-flex py-4 px-4 copyr">
             <div class="mr-md-auto text-center text-md-left pt-3">
                 <div class="copyright">
-                    <strong><span>Segolip</span></strong> &copy; 2022.
+                    <strong><span>SegoliP</span></strong> &copy; 2022.
                 </div>
             </div>
         </div>

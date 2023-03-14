@@ -1,7 +1,7 @@
 <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-        <h1 class="logo mr-auto"><a href="{{ route('welcome') }}">Segolip</a></h1>
+        <h1 class="logo mr-auto"><a href="{{ route('welcome') }}">SegoliP</a></h1>
 
         <nav class="nav-menu d-none d-lg-block">
             <ul>
